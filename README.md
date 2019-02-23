@@ -14,7 +14,7 @@ on a symmetric key using Diffie-Hellman. Then, the client encrypts the file and 
 Finally, the server, after receiving the data, decrypts it and prints the content of the file.
 
 ##Environment Configuration:
-- **OS:** Ubuntu Server 14.04.5 LTS
-- **Programing Language:** Python 3.4.3
+- **OS:** MacOS Mojave Version 10.14.2
+- **Programing Language:** Python 3.7.0
 - **Libraries:**
-    * pycrypto==2.6.1
+    * pycryptodomex==3.7.3
