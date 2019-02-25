@@ -14,9 +14,9 @@ if __name__ == '__main__':
     md5Hash = MD5.new(messageInByte)  # Generate the MD5 hash of the message
     signFile = open('signature.txt', 'rb')  # Open the file containing the signature for read
     signature = signFile.read()  # Saving the signature
-    try:
-        verifier.verify(md5Hash, signature)
+    isAuth = verifier.verify(md5Hash, signature)  # Checking wether the signature is authentic or not
+    if (isAuth):
         print("The signature is authentic.")
-    except (ValueError, TypeError):
+    else:
         print("The signature is not authentic.")
     # Finished Verifying
