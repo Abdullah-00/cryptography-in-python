@@ -1,4 +1,4 @@
-#Cryptography Using Python
+# Cryptography Using Python
 
 This is an assignment of ICS444 (Computer & Network Security) course. The assignment is about using existing libraries to carry out cryptographic operations
 in python language. It consists of 7 parts as follows:
@@ -13,13 +13,13 @@ server) to exchange a file securely. The client and the server start by agreeing
 on a symmetric key using Diffie-Hellman. Then, the client encrypts the file and sends it.
 Finally, the server, after receiving the data, decrypts it and prints the content of the file.
 
-##Environment Configuration:
+## Environment Configuration:
 - **OS:** MacOS Mojave Version 10.14.2
 - **Programing Language:** Python 3.7.0
 - **Libraries:**
     * pycryptodomex==3.7.3
 
-##Execution:
+## Execution:
 - To execute any program, use the following command: 'python3 <filename.py>'.
 - The following parts needs to be executed in order due to dependency:
     * Part1.2 and Part1.3
